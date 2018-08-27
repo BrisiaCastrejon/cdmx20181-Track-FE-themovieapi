@@ -2,13 +2,13 @@ let inputSearch = document.getElementById('inputSearch').value;
 const buttonSearch = document.getElementById('buttonSearch');
 const movieCard = document.getElementById('movieCard');
 const apiKey = '4e0f0e85';
-const apiLink = `http://www.omdbapi.com/?apikey=${apiKey}&s=${inputSearch}`;
+const apiLink = `https://www.omdbapi.com/?apikey=${apiKey}&s=${inputSearch}`;
 let apiSearchWars = 'star+wars'; 
 let apiSearchHarry = 'harry+potter';
 let apiSearchTrek = 'star+trek';
-const apiLinkWars = `http://www.omdbapi.com/?apikey=${apiKey}&s=${apiSearchWars}`;
-const apiLinkHarry = `http://www.omdbapi.com/?apikey=${apiKey}&s=${apiSearchHarry}`;
-const apiLinkTrek = `http://www.omdbapi.com/?apikey=${apiKey}&s=${apiSearchTrek}`;
+const apiLinkWars = `https://www.omdbapi.com/?apikey=${apiKey}&s=${apiSearchWars}`;
+const apiLinkHarry = `https://www.omdbapi.com/?apikey=${apiKey}&s=${apiSearchHarry}`;
+const apiLinkTrek = `https://www.omdbapi.com/?apikey=${apiKey}&s=${apiSearchTrek}`;
 
 let buttonWars = document.getElementById('wars');
 let buttonHarry = document.getElementById('harry');
