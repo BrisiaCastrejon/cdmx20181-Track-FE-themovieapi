@@ -1,0 +1,35 @@
+{
+  "name": "cdmx20181-track-fe-themovieapi",
+  "version": "1.0.0",
+  "description": "Has decidido entrar a una startup que se relaciona con la industria cinematográfica. Tienes una entrevista técnica en dos días y por ello, decides \r crear un blog para reforzar tu portafolio enfocado a este sector.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "htmlhint": "htmlhint src/*.html test/*.html",
+    "eslint": "eslint --ext .js src/ test/",
+    "pretest": "npm run eslint && npm run htmlhint",
+    "test-browser": "opener ./test/index.html",
+    "test-node": "nyc mocha ./test/headless.js && nyc report --reporter=html",
+    "test": "npm run test-node && npm run test-browser"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "htmlhint": "^0.9.13",
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.1",
+    "opener": "^1.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrisiaCastrejon/cdmx20181-Track-FE-themovieapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrisiaCastrejon/cdmx20181-Track-FE-themovieapi/issues"
+  },
+  "homepage": "https://github.com/BrisiaCastrejon/cdmx20181-Track-FE-themovieapi#readme"
+}

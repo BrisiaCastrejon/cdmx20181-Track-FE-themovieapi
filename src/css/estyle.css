@@ -1,0 +1,33 @@
+body {
+background-color: black;
+}
+.busqueda, .clearPage{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.input-color, .boton-modal{
+  background-color: rgba(36, 36, 131, 0.815);
+  border-color: blueviolet;
+}
+.fondo{
+  background-color: rgba(0, 0, 0, 0.664);
+}
+.primera-caja {
+  text-align: center;
+}
+.card-img-top{
+  width: 250px;
+  margin: 40px auto 20px auto;
+}
+.elementos {
+  text-align: center;
+}
+.titulo-pelicula, ::placeholder{
+  font-size: 15px;
+  margin-top: px;
+  color: aliceblue;
+}
+.titulo-pelicula-modal{
+  color: black;
+}
